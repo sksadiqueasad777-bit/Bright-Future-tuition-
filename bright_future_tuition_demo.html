@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Bright Future Tuition Classes - quality coaching for students.">
+<title>Bright Future Tuition Classes</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;line-height:1.6;background:#f7f9fc;color:#172033}
+a{text-decoration:none;color:inherit}
+.container{width:min(1100px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid #e7ebf2}
+.nav{height:68px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:21px;font-weight:800;color:#3157d5}
+.navlinks{display:flex;gap:22px;font-size:14px;font-weight:700}
+.hero{padding:75px 0 65px;background:linear-gradient(135deg,#eef3ff,#fff)}
+.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:35px;align-items:center}
+.badge{display:inline-block;background:#e2e9ff;color:#3157d5;padding:7px 13px;border-radius:30px;font-size:13px;font-weight:700;margin-bottom:15px}
+h1{font-size:clamp(38px,7vw,64px);line-height:1.05;margin-bottom:18px}
+h1 span{color:#3157d5}
+.hero p{font-size:18px;color:#596579;max-width:650px;margin-bottom:25px}
+.btn{display:inline-block;padding:13px 20px;border-radius:10px;font-weight:800;margin:4px 6px 4px 0}
+.primary{background:#3157d5;color:white}
+.secondary{background:white;border:1px solid #d9dfeb}
+.card{background:#fff;border:1px solid #e4e8f0;border-radius:20px;padding:28px;box-shadow:0 12px 35px #1c2b4a12}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}
+.stat{background:#f4f6fb;border-radius:13px;padding:15px;text-align:center}
+.stat b{font-size:23px;display:block;color:#3157d5}
+section{padding:70px 0}
+.section-title{text-align:center;margin-bottom:38px}
+.section-title h2{font-size:34px;margin-bottom:8px}
+.section-title p{color:#667085}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.feature{background:white;border:1px solid #e4e8f0;border-radius:16px;padding:24px}
+.icon{font-size:30px;margin-bottom:10px}
+.feature h3{margin-bottom:7px}
+.feature p{color:#667085}
+.courses .feature{border-top:4px solid #3157d5}
+.price{font-size:28px;font-weight:900;color:#3157d5;margin:12px 0}
+ul{list-style:none;color:#596579}
+li{margin:8px 0}
+li:before{content:"✓ ";font-weight:bold;color:#3157d5}
+.contact{background:#172033;color:white}
+.contact .section-title p{color:#c8cfdd}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.contact-card{background:#202b42;padding:25px;border-radius:16px}
+footer{text-align:center;padding:22px;background:#101827;color:#b9c1d1;font-size:13px}
+@media(max-width:760px){
+ .navlinks{display:none}.hero{padding-top:52px}.hero-grid,.contact-grid{grid-template-columns:1fr}
+ .grid{grid-template-columns:1fr}.stats{grid-template-columns:repeat(3,1fr)}
+ section{padding:55px 0} h1{font-size:43px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="container nav">
+    <div class="logo">Bright Future</div>
+    <div class="navlinks">
+      <a href="#about">About</a><a href="#courses">Courses</a><a href="#why">Why Us</a><a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="badge">Admissions Open • Demo Website</div>
+      <h1>Learn Today.<br><span>Grow Tomorrow.</span></h1>
+      <p>Quality tuition and personal guidance to help students understand concepts, improve confidence and perform better in exams.</p>
+      <a class="btn primary" href="#contact">Enquire Now</a>
+      <a class="btn secondary" href="#courses">View Courses</a>
+      <div class="stats">
+        <div class="stat"><b>10+</b>Years</div>
+        <div class="stat"><b>500+</b>Students</div>
+        <div class="stat"><b>95%</b>Focus</div>
+      </div>
+    </div>
+    <div class="card">
+      <h2>📚 Start Your Journey</h2>
+      <p style="color:#667085;margin:10px 0 18px">Small batches • Personal attention • Regular tests</p>
+      <a class="btn primary" style="width:100%;text-align:center" href="https://wa.me/910000000000">WhatsApp Us</a>
+      <p style="font-size:12px;color:#8a94a6;margin-top:12px">Replace the demo WhatsApp number before publishing for a real client.</p>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="container">
+    <div class="section-title"><h2>About Our Classes</h2><p>A focused learning environment for school students.</p></div>
+    <div class="grid">
+      <div class="feature"><div class="icon">👨‍🏫</div><h3>Experienced Guidance</h3><p>Concept-focused teaching with clear explanations and doubt support.</p></div>
+      <div class="feature"><div class="icon">🎯</div><h3>Personal Attention</h3><p>Small batches help teachers understand each student's learning needs.</p></div>
+      <div class="feature"><div class="icon">📝</div><h3>Regular Practice</h3><p>Tests, revision and practice sessions to build exam confidence.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="courses" class="courses">
+  <div class="container">
+    <div class="section-title"><h2>Our Courses</h2><p>Choose a program that fits your academic goals.</p></div>
+    <div class="grid">
+      <div class="feature"><h3>Classes 6–8</h3><div class="price">From ₹500/mo</div><ul><li>Maths & Science</li><li>Weekly practice</li><li>Doubt support</li></ul></div>
+      <div class="feature"><h3>Classes 9–10</h3><div class="price">From ₹800/mo</div><ul><li>Board-focused preparation</li><li>Regular tests</li><li>Revision sessions</li></ul></div>
+      <div class="feature"><h3>11–12 Commerce</h3><div class="price">From ₹1,000/mo</div><ul><li>Accounts & Economics</li><li>Statistics support</li><li>Exam preparation</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section id="why">
+  <div class="container">
+    <div class="section-title"><h2>Why Choose Us?</h2><p>Designed around consistent learning and improvement.</p></div>
+    <div class="grid">
+      <div class="feature"><div class="icon">💡</div><h3>Concept Clarity</h3><p>Understand the topic instead of simply memorising answers.</p></div>
+      <div class="feature"><div class="icon">📊</div><h3>Progress Tracking</h3><p>Use tests and feedback to identify areas that need more practice.</p></div>
+      <div class="feature"><div class="icon">🤝</div><h3>Parent Updates</h3><p>Keep parents informed about attendance, tests and progress.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="section-title"><h2>Let's Talk</h2><p>Book a free enquiry and learn more about the classes.</p></div>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>📍 Visit Us</h3>
+        <p style="margin-top:8px">123 Education Street<br>Your City, India</p>
+      </div>
+      <div class="contact-card">
+        <h3>📞 Contact</h3>
+        <p style="margin-top:8px">+91 00000 00000<br>brightfuture@example.com</p>
+        <a class="btn primary" style="margin-top:15px" href="https://wa.me/910000000000">Message on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Bright Future Tuition Classes • Demo template</footer>
+</body>
+</html>
